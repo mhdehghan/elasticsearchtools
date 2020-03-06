@@ -1,0 +1,11 @@
+elasticsearch:
+  host:
+    - 'localhost'
+  port:
+    - 9200
+  elastic_user:
+    - 'my_user' #If you do not set user & pass, just ignore it
+  elastic_pass:
+    - 'my_pass' #If you do not set user & pass, just ignore it
+  index_name:
+    - 'index_name'
