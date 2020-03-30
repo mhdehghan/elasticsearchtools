@@ -8,4 +8,4 @@ class ElasticsearchConnector:
         self.http_auth = http_auth
 
     def get_es_instance(self):
-        return Elasticsearch(self.elasticsearch_config.get('host_port'), http_auth= self.http_auth)
+        return Elasticsearch(self.elasticsearch_config.get('host_port'), http_auth=self.http_auth)

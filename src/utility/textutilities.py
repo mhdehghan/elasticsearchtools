@@ -6,8 +6,9 @@ def random_string(length=10):
     letter = string.ascii_letters + string.digits
     return ''.join(random.choice(letter) for i in range(length))
 
+
 def random_digit(length=10):
-    digit= string.digits
+    digit = string.digits
     return ''.join(random.choice(digit) for i in range(length))
 
 
